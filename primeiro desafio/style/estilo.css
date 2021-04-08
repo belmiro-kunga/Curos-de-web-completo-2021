@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+p.paragrafo{
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+h2,h3,h4{
+    color: cadetblue;
+}
+
