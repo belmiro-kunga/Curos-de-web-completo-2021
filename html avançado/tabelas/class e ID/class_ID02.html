@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style02.css">
+    <title>Class e ID</title>
+</head>
+<body>
+    <h2>Usar a tag id no JavaScript</h2>
+    <p>JavaScript pode acessar um elemento com um id especificado
+         usando o método getElementById():</p>
+
+
+    <h1 id="myHeader"> Olá Mundo</h1>
+    <button onclick="displyresult()">Alterar o Texto</button>
+
+        <script>
+
+            function displyresult(){
+                document.getElementById("myHeader").innerHTML= "Tenha uma Boa Aula";
+            }
+        </script>
+</body>
+</html>

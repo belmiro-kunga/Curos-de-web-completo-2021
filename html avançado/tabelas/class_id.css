@@ -1,0 +1,21 @@
+.cidade{
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+.nota{
+    font-size: 70px;
+    color: blue;
+    text-decoration: none;
+}
+
+#note{
+    background-color: lightblue;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
