@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento HTML picture</title>
+</head>
+<body>
+    <h2>O elemento de imagem</h2>
+
+<picture>
+<source media="(min-width: 650px)" srcset="img/img_food.jpg"> 
+<source media="(min-width: 465px)" srcset="img/img_car.jpg">
+  <img src="img/img_girl.jpg" style="width:auto;">
+
+</picture>
+    <p>Redimensione o navegador para ver diferentes versões da imagem sendo
+        carregada em diferentes tamanhos de visor. O navegador procura o primeiro 
+        elemento de origem onde a consulta de mídia corresponde à largura da janela
+        de visualização atual do usuário e busca a imagem especificada no atributo
+         srcset.</p>
+
+         <p>O elemento img é necessário como a última tag filha do bloco de 
+            declaração de imagem. O elemento img é usado para fornecer 
+            compatibilidade com versões anteriores para navegadores que não
+            suportam o elemento de imagem, ou se nenhuma das tags de origem 
+            corresponder.</p>
+
+            <p> <strong>Nota:</strong> O elemento de imagem não é compatível com IE12 e anteriores
+                 ou Safari 9.0 e anteriores.</p>
+</body>
+</html>

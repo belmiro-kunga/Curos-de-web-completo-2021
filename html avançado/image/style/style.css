@@ -1,0 +1,22 @@
+/*
+#background-image{
+    background-image: url('../img/img_chania.jpg');
+}
+
+#background-image_01{
+    background-image: url('../img/img_chania.jpg');
+}
+
+div,p.background-image_01{
+    background-image: url('../img/img_chania.jpg');
+}
+*/
+
+
+body{
+    background-image: url('../img/img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
