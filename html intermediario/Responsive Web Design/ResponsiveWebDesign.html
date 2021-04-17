@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .menu{
+            float: left;
+            width: 20%;
+        }
+        .menuitem{
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        .main{
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            margin:3% ;
+            overflow: hidden;
+        }
+        
+        .rigth{
+            background-color: lightblue;
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+
+            }
+
+            @media only screen and (max-widht:500px ){
+            .menu, .main, .rigth{
+                width: 100%;
+            }
+                
+            }
+    </style>
+    <title>HTML Responsive Web Design</title>
+</head>
+<body style="overflow: auto;">
+    <div style="background-color: #f1f1f1;padding: 15px;">
+        <h1>Ola a todos</h1>
+        <h2>Bem-vindo ao nosso mundo</h2>
+    </div>
+
+    <div style="overflow: auto;">
+        <div class="menu">
+        <div class="menuitem">Sobre</div>
+        <div class="menuitem">Nossos produtos</div>
+        <div class="menuitem">Histório</div>
+        <div class="menuitem">Contacto</div>
+    </div>
+    </div>
+
+
+    <div class="main">
+        <h2>como andar</h2>
+        <p>A caminhada de Monterosso até Riomaggiore levará aproximadamente duas horas, mais ou menos uma hora, dependendo das condições climáticas e da sua forma física. </p>
+    <img src="img_5terre.jpg" style="width: 100%;">
+    </div>
+
+    <div class="rigth">
+        <h2>Como estas</h2>
+
+        <p>A caminhada de Monterosso até Riomaggiore levará aproximadamente duas horas, mais ou menos uma hora, dependendo das condições climáticas e da sua forma física.
+       </p>
+
+       <h2>preço</h2>
+       <p>E grates por hoje</p>
+    </div>
+
+    <div style="background-color: #f1f1f1; text-align: center; padding: 10px; margin-top:7px;font-size: 12px;">A caminhada de Monterosso até Riomaggiore levará aproximadamente duas horas, mais ou menos uma hora, dependendo das condições climáticas e da sua forma física.
+
+    </div>
+</body>
+</html>
