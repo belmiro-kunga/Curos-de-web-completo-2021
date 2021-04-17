@@ -9,11 +9,19 @@
 <body>
     <h1>Mapas de imagem HTML</h1>
 
-<img src="img/workplace.jpg" alt="Aria de trabalho" usemap="#workmap" width="400" height="379">
-<map name="workmap">
+<!--
+*rect - define uma região retangular
+*circle - define uma região circular
+*poly - define uma região poligonal
+*default - define toda a região
 
-    <area shape="rect" coords="34,40,274,351" href="" alt="">
+-->
+<img src="img/workplace (1).jpg" alt="workplace" usemap="#workplace" width="400" height="379">
+
+<map name="workplace">
+    <area shape="rect" coords="34,44,270,350" href="Computador.html" alt="Computador" target="blanck">
+    <area shape="rect" coords="290,172,333,250" href="phone.html" alt="phone " target="blanck">
+    <area shape="circle" coords="337,300,40" href="coffe.html" alt="coffe" target="blanck">
 </map>
-
 </body>
 </html>
