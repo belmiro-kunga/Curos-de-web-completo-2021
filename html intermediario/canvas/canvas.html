@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos em tela HTML</title>
+</head>
+<body>
+    <h1>Gráficos em tela HTML (Canvas)</h1>
+<!--
+<canvas id="mycanvas" width="200" height="100"
+style="border: 1px solid #000;">
+</canvas>
+<br><br><br><br><br><br>
+<hr>
+<canvas id="myccanvas_1" width="200" height="100"
+style="border: 1px solid #d3d3d3;">
+</canvas>
+<script>
+ let c = document.getElementById("myccanvas_1");
+ var ctx = c.getContext("2d");
+ ctx.moveTo(0,0);
+ ctx.lineTo(200,100);
+ ctx.stroke();
+</script>
+
+<br><br><br><br><br><br>
+<hr>
+
+<canvas id="mycanvas_2" width="200" height="100"
+style="border: 1px solid #d3d3d3;">
+</canvas>
+
+<script>
+    let c = document.getElementById("mycanvas_2");
+    let ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+</script>
+
+<br><br><br><br><br><br>
+<hr>
+
+<canvas id="mycanvas_3" width="200" height="100"
+style="border: solid #d3d3d3;">
+</canvas>
+<script>
+    let c = document.getElementById("mycanvas_3");
+    let ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.fillText("Ola mundo", 10,50);
+</script>
+
+
+<canvas id="mycanvas_4" width="200" height="100"
+style="border: solid #d3d3d3;">
+</canvas>
+<script>
+    let c = document.getElementById("mycanvas_4");
+    let ctx = c.getContext("2d");
+    let grb = ctx.createLinearGradient(0,0,200,0);
+    grb.addColorStop(0,"red")
+    grb.addColorStop(1,"white");
+    ctx.fillStyle  = grb;
+    ctx.fillRect(10,10,150,80);
+</script>
+-->
+<p>imagem a ser usada</p>
+<img id="scream" src="img_the_scream.jpg" alt="crito" width="220" height="277">
+
+<p>Tela para preencher</p>
+
+<canvas id="myCanvas_5" width="250" height="300"
+style="border: 1px solid #d3d3d3;"></canvas>
+<p><button onclick="myCanvas_5()">Esperimentar</button></p>
+<script>
+    function myCanvas_5(){
+        let c = document.getElementById("myCanvas_5");
+        let ctx = c.getContext("2d");
+        let img = document.getElementById("scream");
+        ctx.drawImage(img,10,10);
+    }
+</script>
+
+
+
+</body>
+</html>
