@@ -1,0 +1,39 @@
+p.one{
+    border-style: solid;
+    border-width: 5px;
+    border-color: tomato;
+}
+
+p.two{
+    border-style: solid;
+    border-width: medium;
+    border-color: red green blue yellow;
+}
+
+p.three{
+    border-style: dotted solid double dashed;
+    border-width: 2px;
+    }
+
+p.four{
+    border-style: double;
+    border-width: 15px;
+}
+
+p.five{
+    border-style: double;
+    border-width: thick;
+}
+p.six{
+    border: 5px solid red;
+    border-radius: 10px;
+}
+p.six1{
+    border-left: 6px solid red;
+    background-color: lightgreen;
+
+}
+p.six2{
+    border-right: 5px solid rgb(226, 6, 54);
+    background-color: hotpink;
+}

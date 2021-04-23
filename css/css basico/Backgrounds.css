@@ -1,0 +1,49 @@
+/*
+body{
+    background-color: rgb(224, 227, 236);
+}
+
+
+h1{
+    background-color: saddlebrown;
+}
+
+div{
+    background-color: lightblue;
+}
+
+p{
+    background-color: yellow;
+}
+
+
+div{
+    background-color: green;
+}
+div.primeiro{
+    opacity: 0.1;
+}
+
+div.segundo{
+    opacity: 0.3;
+}
+
+div.terceiro{
+    opacity: 0.6;
+}
+*/
+
+
+div{
+    background: rgb(0, 128, 0);
+}
+
+div.primeiro{
+    background: rgba(0, 128, 0, 0.1);
+}
+
+
+div.segundo{
+    background: rgba(0, 128, 0, 0.3);
+}
+

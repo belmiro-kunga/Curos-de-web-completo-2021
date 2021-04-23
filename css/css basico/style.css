@@ -1,0 +1,24 @@
+/*
+*{
+    text-align: center;
+    color: turquoise;
+}
+#id1{
+    color: blue; font-size: 20px;
+}
+.class1{
+    text-align: center;
+    color: tomato;
+}
+*/
+
+
+/* 
+
+
+*/
+h1,h2,p{
+    color: violet; /* esste é um cor do texto*/
+    text-align: justify;
+    text-align: center;
+}
