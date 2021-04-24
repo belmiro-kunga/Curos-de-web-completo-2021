@@ -1,0 +1,16 @@
+/*
+div{
+    background-color: lightgreen;
+    width: 300px;
+    border: 15px solid goldenrod;
+    padding: 50px;
+    margin: 20px;
+}
+*/
+
+div{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid green;
+    margin: 0;
+}
