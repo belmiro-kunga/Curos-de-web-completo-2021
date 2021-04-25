@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Examples</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .img-container{
+            float: left;
+            width: 250.250px;
+            padding: 5px;
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h2>Imagem lado a lado</h2>
+    <p>imagens flutuante lado a lado</p>
+
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="img_5terre.jpg"  style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="img_forest.jpg"  style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="img_mountains.jpg"  style="width:100%">
+        </div>
+      </div>
+    <p>Note que também usamos o hack clearfix para cuidar do fluxo de layout, e que adiciona a propriedade de tamanho de caixa para garantir que a caixa não quebre devido ao preenchimento extra. Tente remover este código para ver o efeito.</p>
+</body>
+</html>

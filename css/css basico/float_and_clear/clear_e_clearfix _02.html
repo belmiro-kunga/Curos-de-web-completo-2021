@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear e clearfix 02</title>
+    <style>
+        div{
+            border: 3px solid #4caf50;
+            padding: 5px;
+        }
+        .img1{
+            float: right;
+        }
+        .clearfix{
+            overflow: auto;
+        }
+
+        .img2{
+            float: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img class="img1" src="pineapple.jpg" width="170" height="170">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+    </div>
+
+    <p style="clear: right;">Adicionar uma classe clearfix com estouro: auto; ao elemento que contém, para corrigir este problema:</p>
+
+    <div class="clearfix">
+        <img class="img2" src="pineapple.jpg" width="170" height="170">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+    </div>
+</body>
+</html>

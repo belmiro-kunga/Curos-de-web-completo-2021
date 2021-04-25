@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+     div.static{
+         position: static;
+         border: 3px solid #73ad21;
+     }
+
+     div.relative{
+         position: relative;
+         width: 400px;
+         height: 200px;
+         border: 3px solid lightblue;
+     }
+     div.fixed{
+         position: fixed;
+         border: 3px solid darkturquoise;
+         right: 0;
+         bottom: 0;
+         width: 300px;
+         
+     }
+     div.absolute{
+         position: absolute;
+         top: 80px;
+         right: 0;
+         width: 200px;
+         height: 100px;
+         border: 3px solid;
+     }
+    </style>
+</head>
+<body>
+    <h2>position stayic</h2>
+    <div class="static"> Este elemento é estatico</div>
+
+    <br><hr>
+    <h2>position relative</h2>
+    <div class="relative"> Este elemento é estatico
+
+        <div class="absolute"> Este elemento é estatico</div>
+    </div>
+    
+    <br><hr>
+    <h2>position relative</h2>
+    
+    <div class="fixed"> Este elemento é estatico</div>
+    <br><hr>
+    
+</body>
+</html>

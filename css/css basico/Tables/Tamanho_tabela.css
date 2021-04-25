@@ -1,0 +1,23 @@
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    height: 50px;
+    text-align: left;
+    padding: 15px;
+}
+
+td{
+    height: 50px;
+    vertical-align: bottom;
+    border-bottom: 3px solid yellow;
+}
+tr:hover{
+    background-color: tomato;
+
+}

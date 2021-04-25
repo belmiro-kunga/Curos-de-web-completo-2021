@@ -1,0 +1,21 @@
+ul.a{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ul.b{
+    list-style-type: square;
+    list-style-image: url(sqpurple.gif);
+
+    
+}
+
+ol.c{
+    background: #ff9999;
+    padding: 20px;
+    
+}
+ol.d{
+    background-color: #cce5ff;
+    margin: 5px;
+}
