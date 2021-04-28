@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variáveis CSS - A função var()</title>
+    <title>Variáveis de Substituição CSS</title>
     <style>
         :root{
             --blue: #1e90ff;
             --white: #ffff;
+            --button-blue:#ff711e;
         }
         body{
             background-color: var(--blue);
@@ -24,15 +25,16 @@
              padding: 15px;
         }
         button{
+            
+            
             background-color: var(--white);
-            color: var(--blue);
-            border: 1px solid var(--blue);
+            color: var(--button-blue);
+            border: 1px solid var(--button-blue);
         }
     </style>
-
 </head>
 <body>
-    <h1>Variáveis CSS - A função var()</h1>
+     <h1>Variáveis CSS - A função var()</h1>
     <div class="container">
         <h2>Variaveis</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>

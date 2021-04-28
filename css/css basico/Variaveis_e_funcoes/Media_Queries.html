@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variáveis CSS - A função var()</title>
+    <title>variáveis em consultas de mídia</title>
     <style>
         :root{
             --blue: #1e90ff;
             --white: #ffff;
+        }
+        .container{
+            --fontsize:25px
         }
         body{
             background-color: var(--blue);
@@ -22,17 +25,28 @@
              color: var(--blue);
              background-color: var(--white);
              padding: 15px;
+             font-size: var(--fontsize);
         }
         button{
+            --button-blue:#ff711e;
+            
             background-color: var(--white);
-            color: var(--blue);
-            border: 1px solid var(--blue);
+            color: var(--button-blue);
+            border: 1px solid var(--button-blue);
+        }
+        @media screen and (min-width:450px){
+            .container{
+                --fontsize: 50px;
+            }
+            :root{
+                --blue: lightblue;
+            }
+            
         }
     </style>
-
 </head>
 <body>
-    <h1>Variáveis CSS - A função var()</h1>
+     <h1>Variáveis CSS - A função var()</h1>
     <div class="container">
         <h2>Variaveis</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>

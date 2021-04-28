@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries max-width</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            text-align: center;
+            padding: 32px;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 4px;
+        }
+        .column{
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+        @media screen and (max-width: 800px){
+            .column{
+                flex: 50%;
+                max-width: 50%;
+            }
+
+            @media screen and (max-width: 600px) {
+                .column{
+                    flex: 100%;
+                    max-width: 100%;
+                }
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Redimensione a janela do navegador para ver o efeito de resposta.</p>
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <img src="img/wedding.jpg" style="width:100%">
+    <img src="img/rocks.jpg" style="width:100%">
+    <img src="img/falls2.jpg" style="width:100%">
+    <img src="img/paris.jpg" style="width:100%">
+    <img src="img/nature.jpg" style="width:100%">
+    <img src="img/mist.jpg" style="width:100%">
+    <img src="img/paris.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="img/underwater.jpg" style="width:100%">
+    <img src="img/ocean.jpg" style="width:100%">
+    <img src="img/wedding.jpg" style="width:100%">
+    <img src="img/mountainskies.jpg" style="width:100%">
+    <img src="img/rocks.jpg" style="width:100%">
+    <img src="img/underwater.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="img/wedding.jpg" style="width:100%">
+    <img src="img//rocks.jpg" style="width:100%">
+    <img src="img/falls2.jpg" style="width:100%">
+    <img src="img/paris.jpg" style="width:100%">
+    <img src="img/nature.jpg" style="width:100%">
+    <img src="img/mist.jpg" style="width:100%">
+    <img src="img/paris.jpg" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="img/underwater.jpg" style="width:100%">
+    <img src="img/ocean.jpg" style="width:100%">
+    <img src="img/wedding.jpg" style="width:100%">
+    <img src="img/mountainskies.jpg" style="width:100%">
+    <img src="img/rocks.jpg" style="width:100%">
+    <img src="img/underwater.jpg" style="width:100%">
+  </div>
+</div>
+</body>
+</html>
