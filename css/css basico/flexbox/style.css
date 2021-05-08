@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+/* Estilo do Body*/
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+/* header/ titulo / logo*/
+.header{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/*Estilo do topu da barra de navegação*/
+
+.navbar{
+    display: flex;
+    background-color: #333;
+}
+/*Estilo da barra de navegação (navbar)*/
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+/* Mudar a cor do menu com hover*/
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/* colunas do Container */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 70%;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+}
+
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.fakeimg{
+    background-color: #aaa;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+/* Layout responsivo - quando a tela tem menos de
+700 px de largura, empilhe as duas colunas uma em
+cima da outra, em vez de uma ao lado da outra */ 
+
+@media scree and(max-width: 700px){
+    .row, .navbar {
+        flex-direction:column ;
+    }
+}
